@@ -13,12 +13,18 @@ import java.util.ArrayList;
 public class Animal extends Actor
 {
     private static final double WALKING_SPEED = 5.0;
-    
+    public int GusanoComidoj;
+    public int GusanoComidoe;
+    public int Gusanos_Totales;
     /**
      * Constructor for Animal - nothing to do.
      */
-    public Animal()
+    public void Fin_del_juego(int GusanoComidoj)
     {
+        Gusanos_Totales=GusanoComidoj;
+        if(Gusanos_Totales == 3){
+            Greenfoot.stop();
+        }
     }
 
     /**

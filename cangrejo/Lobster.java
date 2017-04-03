@@ -5,12 +5,20 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  */
 public class Lobster extends Animal
 {
+ private World mundo;
+ public Lobster(){
+    GusanoComidoe=0;
+}
     public void act()
- {    
+ {   
+     mundo=getWorld();
+     mundo.showText("Jugador " +GusanoComidoe , 500,50);
      move();
      lookForCrab();
+     lookForWorm();
      turnAtEdge();
      randomTurn();
+     Fin_del_juego(GusanoComidoe);
 }
 
 /**
@@ -27,7 +35,20 @@ public void lookForCrab()
     }
     
 }
-
+/**
+ * Comprueba si se come un gusano y lo desaparece
+ */
+public void lookForWorm()
+{
+   if (canSee(Worm.class))
+   { 
+       eat(Worm.class);
+       Greenfoot.playSound("bite.wav");
+       
+       GusanoComidoe= GusanoComidoe + 1;
+        mundo.showText("Enemig " +GusanoComidoe , 500,50);
+}
+} 
 /**
  * Realiza un giro cuando se encuentra en el borde.
  */

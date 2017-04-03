@@ -15,11 +15,7 @@ public class CrabWorld extends World
     public void populateWorld()
     {
         addObject(new Crab(), 50, 250);
-        
         addObject(new Lobster(), 300, 500);
-        addObject(new Lobster(), 200, 300);
-        addObject(new Lobster(), 300, 99);
-        
         addObject(new Worm(), 20, 500);
         addObject(new Worm(), 30, 200);
         addObject(new Worm(), 60, 90);

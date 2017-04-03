@@ -7,18 +7,18 @@ public class Crab extends Animal
 {
     private GreenfootImage image1;
     private GreenfootImage image2;
-    private int GusanoComido;
+    //private int GusanoComido;
     
-
     /**
-     * Create a crab and initialize its two images.
+     * Inicializamos el marcador de los puntos del cangrejo
+     * Crea al cangrejo en dos imagenes que realiza la animación.
      */
     public Crab()
     {
         image1 = new GreenfootImage("crab.png");
         image2 = new GreenfootImage("crab2.png");
         setImage(image1);
-        GusanoComido = 0;
+        GusanoComidoj = 0;
     }
     
     public void act()
@@ -27,6 +27,7 @@ public class Crab extends Animal
      move();
      lookForWorm();
      switchImage();
+     Fin_del_juego(GusanoComidoj);
 }
 
 /**
@@ -81,9 +82,9 @@ public void lookForWorm()
        eat(Worm.class);
        Greenfoot.playSound("bite.wav");
        
-       GusanoComido= GusanoComido + 1;
+       GusanoComidoj= GusanoComidoj + 1;
        
-       if (GusanoComido == 8)
+       if (GusanoComidoj == 8)
       {
           Greenfoot.playSound("fanfare.wav");
           Greenfoot.stop();

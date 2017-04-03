@@ -1,8 +1,8 @@
 #BlueJ class context
 comment0.target=Animal
 comment0.text=\r\n\ Animal.\ This\ is\ the\ base\ class\ for\ all\ animals.\ In\ addition\ to\ the\ standard\ Actor\r\n\ methods,\ it\ provides\ the\ ability\ to\ move\ and\ turn.\r\n\ \r\n\ @author\ Michael\ Kolling\r\n\ @version\ 1.0\r\n
-comment1.params=
-comment1.target=Animal()
+comment1.params=GusanoComidoj
+comment1.target=void\ Fin_del_juego(int)
 comment1.text=\r\n\ Constructor\ for\ Animal\ -\ nothing\ to\ do.\r\n
 comment2.params=
 comment2.target=void\ act()
