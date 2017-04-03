@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Lobster
+comment0.text=\r\n\ Esta\ clase\ define\ una\ langosta.\ Las\ langostas\ viven\ en\ la\ playa\ o\ en\ el\ mar.\ Se\ comen\ a\ los\ cangrejos.\r\n
+comment1.params=
+comment1.target=void\ act()
+comment2.params=
+comment2.target=void\ lookForCrab()
+comment2.text=\r\n\ Comprueba\ si\ descubrimos\ un\ cangrejo.\ \r\n\ SI\ lo\ vemos,\ nos\ lo\ comemos.\ Si\ no,\ no\ hacemos\ nada.\r\n
+comment3.params=
+comment3.target=void\ turnAtEdge()
+comment3.text=\r\n\ Realiza\ un\ giro\ cuando\ se\ encuentra\ en\ el\ borde.\r\n
+comment4.params=
+comment4.target=void\ randomTurn()
+comment4.text=\r\n\ Realiza\ un\ giro\ aleatoriamente.\r\n
+numComments=5

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=Crab
+comment0.text=\r\n\ Esta\ clase\ define\ un\ cangrejo.\ Los\ cangrejos\ viven\ en\ la\ playa\ o\ en\ el\ mar.\r\n
+comment1.params=
+comment1.target=Crab()
+comment1.text=\r\n\ Create\ a\ crab\ and\ initialize\ its\ two\ images.\r\n
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ switchImage()
+comment3.text=\r\n\ Alterna\ la\ imagen\ del\ cangrejo\ entre\ imagen\ 1\ e\ imagen\ 2.\ \r\n
+comment4.params=
+comment4.target=void\ checkKeypress()
+comment4.text=\r\n\r\n\ Comprueba\ si\ se\ pulsa\ una\ tecla\ de\ control\ en\ el\ teclado.\ \r\n\ Si\ se\ pulsa,\ reacciona\ como\ corresponda.\r\n
+comment5.params=
+comment5.target=void\ lookForWorm()
+comment5.text=\r\n\ Comprueba\ si\ descubrimos\ un\ gusano.\ \r\n\ SI\ lo\ vemos,\ nos\ lo\ comemos.\ Si\ no,\ no\ hacemos\ nada.\ Si\ nos\ hemos\ comido\ ocho\ gusanos,\ ganamos.\r\n\ \r\n
+numComments=6
